@@ -40,7 +40,7 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     title: 'Lee Chi Wang',
     subtitle: 'MS in Computer Science at USC, expected graduation: Dec 2025',
-    description: 'Personal blog build by Astro.js and Tailwind CSS theme',
+    description: 'Personal blog build by Astro.js and Tailwind CSS',
     // image: {
     //     src: '/dante-preview.jpg',
     //     alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -57,11 +57,11 @@ const siteConfig: SiteConfig = {
         {
             text: 'Blog',
             href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
         }
+        // {
+        //     text: 'Tags',
+        //     href: '/tags'
+        // }
     ],
     footerNavLinks: [
         {
@@ -84,7 +84,7 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There, welcome to my little world!',
+        title: 'Hi there, welcome to my little world!',
         text: 'My name is **Lee-Chi Wang**.',
         image: {
             src: '/myself.jpeg',
